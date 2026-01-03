@@ -9,6 +9,7 @@ message=${1:-"Update CombineCam: $(date +'%Y-%m-%d %H:%M:%S')"}
 # 3. コミット実行
 git commit -m "$message"
 
+
 # 4. GitHubへプッシュ
 git push origin main
 
